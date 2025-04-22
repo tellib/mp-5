@@ -60,7 +60,7 @@ export default function URLForm() {
           <div>
             <FormLabel htmlFor="alias">Alias</FormLabel>
             <div className="flex items-center space-x-2 mb-0">
-              <span className="opacity-50">http://github.com/</span>
+              <span className="opacity-50">{WEBSITE_URL}</span>
               <Input
                 className="flex-1"
                 id="alias"
